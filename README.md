@@ -2,7 +2,7 @@
 
 python linter [NB: not pylint] with [Review Dog](https://github.com/reviewdog/reviewdog) inside. For use with [CI templates](https://github.com/jobtome-labs/ci-templates/).
 
-Based on [`wemake-services/wemake-python-styleguide`](https://github.com/wemake-services/wemake-python-styleguide) image.
+Based on [`wemake-services/wemake-python-styleguide`](https://github.com/wemake-services/wemake-python-styleguide) image (which is based on `flake8` pylinter).
 
 ### Versions
 |||
