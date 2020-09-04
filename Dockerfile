@@ -1,8 +1,8 @@
 #NOTE: there is no fixed tag as of now
 ARG LINTER_VERSION=latest
-ARG REVIEWDOG_VERSION=v0.9.17
 
 FROM wemakeservices/wemake-python-styleguide:${LINTER_VERSION}
+ARG REVIEWDOG_VERSION=v0.9.17
 
 LABEL maintainer="Fabrizio Bellicano <bellicaf@tcd.ie>" \
     image="linuxbandit/pythonlinter-reviewdog" \
